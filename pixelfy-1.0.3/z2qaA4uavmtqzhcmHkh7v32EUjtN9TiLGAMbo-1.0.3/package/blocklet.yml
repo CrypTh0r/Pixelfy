@@ -1,0 +1,33 @@
+did: z2qaA4uavmtqzhcmHkh7v32EUjtN9TiLGAMbo
+name: z2qaA4uavmtqzhcmHkh7v32EUjtN9TiLGAMbo
+title: Pixelfy
+description: Pixelate your image - part of AniMatrix
+version: 1.0.3
+homepage: https://crypthor.did.life/Pixelfy/
+support: https://braintitan.did.life/Pixelfy
+community: >-
+  https://braintitan.did.life/TitanCommunity/discussions/670b6a53-c5d1-4027-aeb1-20eaa3191fb6
+repository: https://github.com/CrypTh0r/Pixelfy
+logo: logo.jpeg
+components: []
+files:
+  - screenshots
+screenshots:
+  - f701e647f314c5f8ed286588a1ca7c72.jpeg
+videos:
+  - https://youtube.com/shorts/X0pXrklkedw
+main: main
+engine:
+  interpreter: blocklet
+  source:
+    store: https://store.blocklet.dev
+    name: z2qa2dGC9EmsjB2WJtUcmuRWx43zTwPUZQF7g
+    version: latest
+interfaces:
+  - name: publicUrl
+    path: /
+    port: BLOCKLET_PORT
+    prefix: '*'
+    protocol: tcp
+    type: web
+specVersion: 1.0.0
